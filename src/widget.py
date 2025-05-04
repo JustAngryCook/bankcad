@@ -16,4 +16,10 @@ def mask_account_card(string: str) -> str:
         return (f"{letters} {get_mask_card_number(numbers)}")
 
 
+def get_date(datetime: str) -> str:
+    Date = ""
+    return (f"{datetime[8:10]}.{datetime[5:7]}.{datetime[0:4]}")
+
+
 print(mask_account_card("Счет 64686473678894779589"))
+print(get_date("2024-03-11T02:26:18.671407"))
