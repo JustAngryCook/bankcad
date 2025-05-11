@@ -18,7 +18,6 @@ def mask_account_card(string: str) -> str:
 
 def get_date(datetime: str) -> str:
     """функция принимает строку с датой и временем и переводит в формат 'ДД.ММ.ГГГГ'"""
-    Date = ""
     return (f"{datetime[8:10]}.{datetime[5:7]}.{datetime[0:4]}")
 
 

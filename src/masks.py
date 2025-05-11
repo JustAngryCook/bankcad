@@ -9,5 +9,4 @@ def get_mask_account(number: int) -> str:
     numbers = str(number)
     return (f"**{numbers[-4:]}")
 
-print(get_mask_card_number(7000792289606361))
-print(get_mask_account(73654108430135874305))
+
